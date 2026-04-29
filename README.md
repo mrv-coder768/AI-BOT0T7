@@ -408,11 +408,6 @@ async function sendMessage(){
                 "Authorization":
                 "Bearer " + API_KEY,
 
-                "HTTP-Referer":
-                "http://localhost:5500",
-
-                "X-Title":
-                "Cyber AI"
 
             },
 
