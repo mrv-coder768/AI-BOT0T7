@@ -112,9 +112,12 @@ canvas{
 }
 
 .chat-box{
-    height:68vh;
+    .chat-box{
+    height:75vh;
     overflow-y:auto;
     padding:20px;
+    padding-bottom:80px;
+}
 }
 
 .message{
@@ -131,13 +134,18 @@ canvas{
 }
 
 .input-area{
+.input-area{
     display:flex;
     border-top:2px solid #00ff88;
+    position:sticky;
+    bottom:0;
+    background:black;
+}
 }
 
 #userInput{
     flex:1;
-    padding:16px;
+    padding:20px;
     background:black;
     border:none;
     outline:none;
