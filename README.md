@@ -355,7 +355,7 @@ setInterval(drawMatrix,35);
 /* OPENROUTER API */
 
 const API_KEY =
-"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";
+"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";
 
 /* CHAT */
 
@@ -414,7 +414,7 @@ async function sendMessage(){
             body:JSON.stringify({
 
                 model:
-                "openrouter/free",
+              "openrouter/auto",
 
                 messages:[
                     {
